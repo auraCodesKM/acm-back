@@ -1,0 +1,44 @@
+# Core FastAPI and web dependencies
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+httpx>=0.25.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# LangChain dependencies
+langchain>=0.1.0
+langchain-community>=0.0.30
+langchain-text-splitters>=0.0.1
+
+# Document processing
+PyMuPDF>=1.23.0
+docx2txt>=0.8
+
+# AI and embeddings - Compatible versions
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+
+# PyTorch - Let it auto-select compatible version
+torch>=2.0.0
+openai>=1.10.0
+huggingface-hub>=0.19.0
+
+# Search and retrieval
+rank-bm25>=0.2.2
+faiss-cpu>=1.7.0
+
+# Core computation
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Token counting
+tiktoken>=0.5.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Optional dependencies with fallbacks
+cachetools>=5.0.0
+psutil>=5.9.0
